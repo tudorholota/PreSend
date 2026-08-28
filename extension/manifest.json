@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "PreSend",
+  "version": "0.1.0",
+  "description": "Analyze messages before sending them.",
+  "action": {"default_popup": "popup.html"},
+  "host_permissions": ["http://127.0.0.1:8000/*"]
+}
