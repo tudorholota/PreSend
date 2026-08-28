@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PreSend</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>PreSend</h1>
+
+        <p class="subtitle"> Verifică mesajul înainte să-l trimiți. </p>
+
+        <textarea id="message" placeholder="Scrie mesajul aici..."></textarea>
+
+        <button id="analyzeButton"> Analyze </button>
+
+        <p id="error" class="error hidden"></p>
+
+        <section id="result" class="result hidden">
+
+            <p class="small-label"> Prediction </p>
+
+            <h2 id="prediction">-</h2>
+
+            <p id="confidence">-</p>
+
+            <div id="probabilities"></div>
+
+        </section>
+    </main>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>

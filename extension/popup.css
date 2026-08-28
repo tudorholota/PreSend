@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 360px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f5f5f5;
+    color: #222;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 18px;
+
+    color: #666;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    resize: vertical;
+
+    font-family: inherit;
+    font-size: 14px;
+}
+
+textarea:focus {
+    outline: 2px solid #333;
+}
+
+button {
+    width: 100%;
+
+    margin-top: 12px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #222;
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #444;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+
+    background: white;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.small-label {
+    margin: 0;
+
+    color: #777;
+
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.result h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.probability-row {
+    margin-top: 12px;
+}
+
+.probability-header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 4px;
+
+    font-size: 13px;
+}
+
+.bar-background {
+    height: 8px;
+
+    background: #e5e5e5;
+
+    border-radius: 4px;
+
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+
+    background: #333;
+
+    border-radius: 4px;
+}
+
+.error {
+    margin-top: 12px;
+
+    color: #b00020;
+
+    font-size: 13px;
+}
+
+.hidden {
+    display: none;
+}
