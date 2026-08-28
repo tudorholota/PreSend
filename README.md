@@ -209,38 +209,43 @@ Dataset:
 PreSend/
 │
 ├── backend/
+│   ├── __pycache__/
 │   └── main.py
 │
 ├── data/
+│   └── ro_offense/
+│       ├── test/
+│       ├── train/
+│       └── dataset_dict.json
 │
 ├── docs/
-│   ├── index.html
-│   └── screenshots/
-│       └── presend-preview.png
+│   └── index.html
 │
 ├── extension/
-│   ├── icons/
-│   │   ├── icon16.png
-│   │   ├── icon48.png
-│   │   └── icon128.png
-│   │
+│   ├── ext.zip
 │   ├── manifest.json
-│   ├── popup.html
 │   ├── popup.css
+│   ├── popup.html
 │   └── popup.js
 │
+├── images/
+│   ├── Email1.png
+│   ├── Email2.png
+│   ├── logo4.png
+│   └── test.png
+│
 ├── models/
+│   ├── .gitkeep
 │   └── message_classifier.joblib
 │
 ├── tests/
 │
 ├── training/
 │   ├── download_dataset.ipynb
-│   ├── train.ipynb
-│   └── predict.ipynb
+│   ├── predict.ipynb
+│   └── train.ipynb
 │
 ├── .gitignore
-├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
