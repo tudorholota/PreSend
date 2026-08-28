@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="extension/icons/icon128.png" alt="PreSend Logo" width="110"/>
+<img src="Images/logo4.png" alt="PreSend Logo" width="110"/>
 
 # PreSend
 
@@ -46,7 +46,7 @@ The extension also displays confidence scores for every category.
 <!-- Replace this image with a real screenshot from the extension -->
 
 <p align="center">
-  <img src="docs/screenshots/presend-preview.png" alt="PreSend extension preview" width="700"/>
+  <img src="Images/Email1.png" alt="PreSend extension preview" width="700"/>
 </p>
 
 Example:
