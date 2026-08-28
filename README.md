@@ -136,24 +136,9 @@ This approach was intentionally chosen for the first version because it is:
 Example pipeline:
 
 ```python
-Pipeline([
-    (
-        "tfidf",
-        TfidfVectorizer(
-            lowercase=True,
-            ngram_range=(1, 2),
-            min_df=2,
-            max_features=50000,
-            sublinear_tf=True
-        )
-    ),
-    (
-        "classifier",
-        LogisticRegression(
-            max_iter=1000,
-            class_weight="balanced"
-        )
-    )
+model = Pipeline([
+    ("tfidf", TfidfVectorizer(lowercase = True, ngram_range = (1, 2), min_df = 2, max_features = 50000, sublinear_tf = True)),
+    ("classifier", LogisticRegression(max_iter = 1000, class_weight = "balanced"))
 ])
 ```
 
